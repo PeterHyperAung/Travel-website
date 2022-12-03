@@ -2,6 +2,9 @@
   transition: all 0.3s;
 }
 
+body {
+  overflow-x: hidden !important;
+}
 .card {
   border: none;
   box-shadow: rgba(99, 99, 99, 0.15) 0px 1px 6px 0px;
@@ -14,6 +17,7 @@
 .navbar-backdrop {
   background-color: #00000001;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .home-background {
@@ -51,11 +55,26 @@ footer {
   min-height: 100vh;
 }
 
+.service-card-img {
+  width: 190px;
+  display: block;
+  margin: auto;
+}
+
+.service-container {
+  width: 80%;
+}
+
 footer p {
   line-height: 10vh;
 }
+
 @media screen and (max-width: 768px) {
   .home-text-box {
+    width: 100%;
+  }
+
+  .service-container {
     width: 100%;
   }
 }

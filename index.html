@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="The Unknown Resort">
+    <meta name="description" content="The adventurous dramatic journeys which will give you mysterious experience....">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theunknownresort.vercel.app/">
+    <meta property="og:title" content="The Unknown Resort">
+    <meta property="og:description" content="The adventurous dramatic journeys which will give you mysterious experience....">
+    <meta property="og:image" content="./img/background1.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theunknownresort.vercel.app/">
+    <meta property="twitter:title" content="The Unknown Resort">
+    <meta property="twitter:description" content="The adventurous dramatic journeys which will give you mysterious experience....">
+    <meta property="twitter:image" content="./img/background1.jpg">
+
     <link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./libs/animate.css/animate.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Travel</title>
+    <title>The Unknown Resort</title>
   </head>
   <body>
     <!-- navbar start -->
@@ -36,11 +54,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#levels">Levels</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">FAQ</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Disabled</a>
+              <a class="nav-link" href="#faq">FAQ</a>
             </li>
           </ul>
         </div>
@@ -57,14 +75,14 @@
         <div
           class="d-flex flex-column justify-content-center align-items-center gap-2 text-light home-text-box"
         >
-          <h1 class="text-center display-2">Travel To Unknown Places</h1>
-          <p class="text-center mb-4">
+          <h1 class="text-center display-2 animate__animated animate__slideInLeft">Travel To Unknown Places</h1>
+          <p class="text-center mb-4 animate__animated animate__slideInRight  ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book
           </p>
-          <button class="btn btn-secondary btn-lg">Join The Journey</button>
+          <button class="btn btn-secondary btn-lg animate__animated animate__slideInUp">Join The Journey</button>
         </div>
       </div>
     </section>
@@ -83,7 +101,7 @@
           <div class="row justify-content-center gap-5">
             <div class="col-12 col-md-5 col-xl-3">
               <div
-                class="card card-wow animate__animated mx-auto"
+                class="card animate__fadeInUpBig card-wow mx-auto"
                 style="max-width: 20rem"
               >
                 <div class="card-body">
@@ -96,13 +114,13 @@
                       <li class="list-group-item">Property Four</li>
                     </ul>
                   </p>
-                  <a href="#" class="btn btn-primary">Travel this</a>
+                  <a href="#" class="btn btn-secondary">Travel this</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-5 col-xl-3">
               <div
-                class="card card-wow animate__animated mx-auto"
+                class="card animate__fadeInUpBig card-wow mx-auto"
                 style="max-width: 20rem"
               >
                 <div class="card-body">
@@ -115,13 +133,13 @@
                       <li class="list-group-item">Property Four</li>
                     </ul>
                   </p>
-                  <a href="#" class="btn btn-primary">Travel this</a>
+                  <a href="#" class="btn btn-secondary">Travel this</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-5 col-xl-3">
               <div
-                class="card card-wow animate__animated mx-auto"
+                class="card animate__fadeInUpBig card-wow mx-auto"
                 style="max-width: 20rem;"
               >
                 <div class="card-body">
@@ -134,7 +152,7 @@
                       <li class="list-group-item">Property Four</li>
                     </ul>
                   </p>
-                  <a href="#" class="btn btn-primary">Travel this</a>
+                  <a href="#" class="btn btn-secondary">Travel this</a>
                 </div>
               </div>
             </div>
@@ -146,11 +164,50 @@
     <!-- levels section end -->
 
     <!-- services section start -->
-    <div class="container-fluid bg-secondary service">
+    <div class="container-fluid bg-secondary service" id="services">
       <div class="container py-5 text-white">
         <div class="text-center mb-5 mt-5 pt-3">
-          <h4 class="fw-normal fs-6 text-uppercase mb-3" style="letter-spacing: 3px;">services</h4>
+          <h4 class="fw-normal fs-6 text-uppercase mb-3 mt-md-0 mt-5" style="letter-spacing: 3px;">services</h4>
           <h3 class="h1">Our Features and Services</h3>
+        </div>
+
+        <div class="pb-4 mb-5 mx-auto mx-0 service-container">
+          <div class="d-flex flex-md-row flex-column service-card gap-4 my-5 py-4 card-wow animate__slideInLeft">
+            <div class="service-card-img-box">
+              <img src="./img/apartment_rent.svg" alt="" class="service-card-img">
+            </div>
+            <div class="service-card-textbox text-center text-md-start">
+              <h5 class="h4" class="service-card-title">Service 1</h5>
+              <p class="fw-light" class="service-card-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex flex-md-row-reverse flex-column service-card gap-4 my-5 pb-4 card-wow animate__slideInRight">
+            <div class="service-card-img-box">
+              <img src="./img/booked.svg" alt="" class="service-card-img">
+            </div>
+            <div class="service-card-textbox text-center text-md-end">
+              <h5 class="h4" class="service-card-title">Service 2</h5>
+              <p class="fw-light" class="service-card-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex flex-md-row flex-column service-card gap-4 card-wow animate__slideInLeft mb-5">
+            <div class="service-card-img-box">
+              <img src="./img/booking.svg" alt="" class="service-card-img">
+            </div>
+            <div class="service-card-textbox text-center text-md-start">
+              <h5 class="h4" class="service-card-title">Service 3</h5>
+              <p class="fw-light" class="service-card-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              </p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -158,7 +215,10 @@
 
     <!-- FAQ section start -->
     <div class="container-fluid p-4 mt-5" id="faq">
-      <h3 class="h1 text-center mt-5">Frequently Asked Questions</h3>
+      <div class="text-center mb-5 mt-5 pt-3">
+          <h4 class="fw-normal fs-6 text-uppercase mb-3" style="letter-spacing: 3px;">faq</h4>
+          <h3 class="h1">Frequently Asked Questions</h3>
+        </div>
       <div class="container mt-5">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -248,23 +308,24 @@
     <!-- FAQ section end -->
 
  
+    <!-- footer start -->
+    <footer class="bg-secondary container-fluid">
+      <p class="text-white fs-5 text-center">Footer</p>
+    </footer>
+    <!-- footer end -->
 
     <script src="./libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./libs/wowjs/dist/wow.min.js"></script>
     <script>
       const wow = new WOW({
         boxClass: "card-wow", // default
-        animateClass: "animate__fadeInUpBig",
+        animateClass: "animate__animated",
         offset: 0, // default
         mobile: true, // default
         live: true, // default
       });
-      wow.init();
+      wow.init();   
     </script>
-
-    <footer class="bg-secondary container-fluid">
-      <p class="text-white fs-4 text-center">Footer</p>
-    </footer>
     <script src="./js/app.js"></script>
   </body>
 </html>
