@@ -3,8 +3,10 @@
 }
 
 body {
+  width: 100vw;
   overflow-x: hidden !important;
 }
+
 .card {
   border: none;
   box-shadow: rgba(99, 99, 99, 0.15) 0px 1px 6px 0px;
